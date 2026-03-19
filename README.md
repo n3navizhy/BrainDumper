@@ -85,4 +85,4 @@ PROXY_URL = адрес прокси для телеграмма
 ## 📬 Контакты
 
 Ваше Имя -@n3navizhy 
-Ссылка на проект: [https://github.com/ваш_username/BrainDumper](https://github.com/ваш_username/BrainDumper)
+Ссылка на проект: [https://github.com/n3navizhy/BrainDumper](https://github.com/n3navizhy/BrainDumper)
