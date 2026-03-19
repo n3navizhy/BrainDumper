@@ -24,8 +24,8 @@ async def main():
         await message.reply("Привет! Напиши мне что-нибудь!")
 
     @dp.message(F.text)  # Обработчик любого текста
-    async def echo_message(message: types.Message):
-        await message.reply("🤖 Думаю...")
+    async def message_classification(message: types.Message):
+        await message.reply("🤖 Определяю тип сообшения...")
         response = await asyncio.to_thread(get_ollama_response, message.text)
         await message.reply(response)
 
